@@ -1,7 +1,7 @@
 
-# **Downloader de Vídeos do Instagram, YouTube e TikTok**
+# **Downloader de Vídeos do Instagram, YouTube, TikTok e clipes da Twitch**
 
-Este projeto é um **Downloader de Vídeos** desenvolvido em Python, utilizando o `yt-dlp` para baixar vídeos de plataformas como instagram, YouTube e TikTok. O script possui uma interface gráfica (GUI) simples construída com o módulo `tkinter`, permitindo ao usuário selecionar a URL do vídeo, escolher se deseja baixar áudio, selecionar o diretório de destino e acompanhar o progresso do download.
+Este projeto é um **Downloader de Vídeos** desenvolvido em Python, utilizando o `yt-dlp` para baixar vídeos de plataformas como instagram, YouTube, TikTok e clipes da Twitch. O script possui uma interface gráfica (GUI) simples construída com o módulo `tkinter`, permitindo ao usuário selecionar a URL do vídeo, escolher se deseja baixar áudio, selecionar o diretório de destino e acompanhar o progresso do download.
 
 ## **Requisitos**
 
