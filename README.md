@@ -114,4 +114,4 @@ Antes de usar o script, você precisará garantir que todos os pacotes necessár
 
 # **Conclusão**
 
-Este projeto oferece uma maneira simples e eficiente de baixar vídeos de plataformas populares como YouTube e TikTok. Com a interface gráfica fácil de usar e suporte para múltiplos formatos, ele torna o processo de download mais acessível.
+Este projeto oferece uma maneira simples e eficiente de baixar vídeos de plataformas populares como Instagram, TikTok, Twitch e YouTube. Com a interface gráfica fácil de usar e suporte para múltiplos formatos, ele torna o processo de download mais acessível.
