@@ -85,7 +85,10 @@ def download_video(url, path='.', audio_only=False, progress_callback=None):
 
             if selected_format:
                 # Inicia o download com o formato selecionado
-                ydl_opts['format'] = selected_format['format_id']
+                if "www.youtube.com" in url or "www.instagram.com" in url or "https://youtu.be" in url:
+                    ydl_opts['format'] = selected_format['format_id']+f"+bestaudio" if not audio_only else 'bestaudio'
+                else:
+                    ydl_opts['format'] = selected_format['format_id']
                 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                     ydl.download([url])
             else:
