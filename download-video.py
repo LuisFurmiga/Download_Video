@@ -59,7 +59,11 @@ def download_video(url, path='.', audio_only=False, progress_callback=None):
             'outtmpl': os.path.join(path, '%(title)s.%(ext)s'),  # Salvar com o nome do vídeo
             'noplaylist': True,  # Impedir o download de playlists
             'ffmpeg_location': ffmpeg_path,  # Caminho do ffmpeg se necessário
-            'progress_hooks': [progress_callback]  # Definir o callback para progresso
+            'progress_hooks': [progress_callback],  # Definir o callback para progresso
+
+            'headers': {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
