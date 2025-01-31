@@ -72,9 +72,7 @@ def download_video(url, path='.', audio_only=False, progress_callback=None):
             formats = info_dict.get('formats', [])
 
             # Exibe os formatos no console para depuração
-            #print("Formatos disponíveis:")
-            #for f in formats:
-            #    print(f"ID: {f['format_id']}, Resolução: {f.get('height', 'N/A')}, Formato: {f['ext']}")
+            #list_formats(url)
 
             # Filtrar por resolução das fontes de vídeo
             if "www.twitch.tv" in url:
